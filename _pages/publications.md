@@ -5,12 +5,5 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+2020. Mahler, T. The social component of projection behavior of clausal complement contents. In *Proceedings of the 94th Annual Meeting of the Linguistic Society of America*. [(doi)](https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/4703/4384)
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
